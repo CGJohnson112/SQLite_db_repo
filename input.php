@@ -26,7 +26,6 @@
 
  	//close connection
  	
-
+header('Location: index.php');
 
 ?>
-header("Name entered");

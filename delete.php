@@ -12,17 +12,9 @@
    $sql =<<<EOF
       DELETE FROM employees WHERE id = {$id};
 EOF;
-
   $delete = $db->query($sql);
-
    //$query = "DELETE FROM employees WHERE id = {$_POST['id']} LIMIT 1";
    //$db->query($query);
-
-
-  
-
-
-
-
     $db->close();
+    header('Location:index.php');
 ?>
